@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conditional_wdk_driver_compile", "conditional_wdk_driver_compile.vcxproj", "{C8B640FB-8F0E-43E4-93DF-F4BEA761895C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "empty", "empty\empty.vcxproj", "{42D354E3-26AF-42D9-9B3C-3B7DAA45EB67}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -19,10 +17,6 @@ Global
 		{C8B640FB-8F0E-43E4-93DF-F4BEA761895C}.Release|x64.ActiveCfg = Release|x64
 		{C8B640FB-8F0E-43E4-93DF-F4BEA761895C}.Release|x64.Build.0 = Release|x64
 		{C8B640FB-8F0E-43E4-93DF-F4BEA761895C}.Release|x64.Deploy.0 = Release|x64
-		{42D354E3-26AF-42D9-9B3C-3B7DAA45EB67}.Debug|x64.ActiveCfg = Debug|x64
-		{42D354E3-26AF-42D9-9B3C-3B7DAA45EB67}.Debug|x64.Build.0 = Debug|x64
-		{42D354E3-26AF-42D9-9B3C-3B7DAA45EB67}.Release|x64.ActiveCfg = Release|x64
-		{42D354E3-26AF-42D9-9B3C-3B7DAA45EB67}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

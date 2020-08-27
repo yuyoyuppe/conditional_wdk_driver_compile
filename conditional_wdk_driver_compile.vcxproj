@@ -4,6 +4,7 @@
   <Import Project="conditional_wdk_project.vcxproj" Condition="$(HasWDK)==true" />
   <Import Project="empty.vcxproj" Condition="$(HasWDK)==false" />
   <PropertyGroup Label="Globals">
+    <IntDirSharingDetected>None</IntDirSharingDetected>
     <ProjectGuid>{C8B640FB-8F0E-43E4-93DF-F4BEA761895C}</ProjectGuid>
   </PropertyGroup>
 </Project>
