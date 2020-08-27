@@ -1,0 +1,31 @@
+;
+; conditional_wdk_driver_compile.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=Sample
+DriverVer=
+CatalogFile=conditional_wdk_driver_compile.cat
+PnpLockDown=1
+
+[DefaultInstall.NT$ARCH$]
+CopyFiles=UMDriverCopy
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+
+[SourceDisksFiles]
+conditional_wdk_driver_compile.dll = 1,,
+
+[UMDriverCopy]
+conditional_wdk_driver_compile.dll,,,0x00004000  ; COPYFLG_IN_USE_RENAME
+
+[DestinationDirs]
+UMDriverCopy=12,UMDF ; copy to driversMdf
+
+[Strings]
+StdMfg = "(Standard system devices)"
+DiskId1 = "VideoConference Disk #1"
